@@ -1,5 +1,4 @@
-import { AES } from "https://deno.land/x/god_crypto/aes.ts";
-import { encode, decode } from "https://deno.land/std@0.97.0/encoding/hex.ts";
+import { AES, encode, decode } from "./deps.ts";
 
 function fillKey(key: string): string {
   if (key === "") {
