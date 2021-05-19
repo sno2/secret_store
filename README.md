@@ -35,4 +35,4 @@ The API matches completely to the [`localStorage` object](https://developer.mozi
 
 ## License
 
-[Unilicense](./UNILICENSE) (More open than MIT and in the Public Domain)
+[Unlicense](./UNLICENSE) (More open than MIT and in the Public Domain)
