@@ -26,6 +26,9 @@ localStorage.getItem("password"); // d2eedcad9e0c285cb95d3c04381c60ae3ad99077642
 await store.getItem("password"); // my-secret-password
 ```
 
+You can also pass in an `iv` into the `SecretStore` constructor which will be
+the initializer vector used in the encryption/decryption.
+
 ## API
 
 The API matches completely to the [`localStorage` object](https://developer.mozilla.org/en-US/docs/Web/API/Storage), except that the `getItem` and `setItem` properties are asynchronous to allow for the cryptographic algorithms to run.
